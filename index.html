@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header" id="inicioJS">
-        <img src="hamburguesa.svg" alt="icono-hamburguesa-menu">
+        <img src="hamburguesa.svg" alt="icono-hamburguesa-menu" class="hamburguesa">
         <nav class="menu-navegacion">
             <a href="#">Inicio</a>
             <a href="#">Acerca de</a> <!------------------------------poner habilidades---->
@@ -19,33 +19,33 @@
             <a href="#">Contacto</a>
         </nav>
         <div class="contenedor head">
-            <h1>Hola, soy Lucrecia Baluczynsky</h1> <!--hacerlo c/JS-->
-            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laudantium facilis
-                 eius cupiditate inventore</p>
+            <h1 class="titulo">Hola, soy Lucrecia Baluczynsky</h1> <!--hacerlo c/JS-->
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laudantium facilis</p>
+                 
         </div>
     </header>
     <main>
         <section class="acercaDe contenedor" id="acercaDeJS">
-            <h2 class="subtitulo">Subtítulo</h2>
+            <h2 class="subtitulo">Acerca de</h2>
             <div class="contenedor-acercaDe">
                 <img src="diseño.svg">  <!----------Hacerlo con JS p/q`vayan cambiando las img/info----------------------->
                 <div class="contenedor-acercaDe-info">
                     <div class="service">
-                        <h3><span class="number">1</span>Diseño web</h3>
+                        <h3 class="yo-service"><span class="number">1</span>Diseño web</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam, dolorem officiis 
                             repudiandae omnis ea earum deserunt voluptatum suscipit quos accusamus beatae dignissimos
                              architecto non quisquam pariatur neque iste aliquid.
                         </p>
                     </div>
                     <div class="service">
-                        <h3><span class="number">2</span>Diseño web</h3>
+                        <h3 class="yo-service"><span class="number">2</span>Diseño web</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam, dolorem officiis 
                             repudiandae omnis ea earum deserunt voluptatum suscipit quos accusamus beatae dignissimos
                              architecto non quisquam pariatur neque iste aliquid.
                         </p>
                     </div>
                     <div class="service">
-                        <h3><span class="number">3</span>Diseño web</h3>
+                        <h3 class="yo-service"><span class="number">3</span>Diseño web</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam, dolorem officiis 
                             repudiandae omnis ea earum deserunt voluptatum suscipit quos accusamus beatae dignissimos
                              architecto non quisquam pariatur neque iste aliquid.
@@ -78,31 +78,28 @@
         </section>-->
 
 <!--------------------------------------------------------------------------Mis conocimientos------------------------->
-        <section class="banner-expertos" id="expertosJS">
+        <section class="banner-conocimientos contenedor" id="expertosJS">
             <h2 class="subtitulo">Poseo conocimientos en:</h2>
-            <section class="experts">
-                <div class="cont-expert">
+            <section class="conocimiento">
+                <div class="cont-cono">
                     <img src="HTML.svg" alt=""><!--------------------------poner animaciones CSS-SVG-->
-                    <h3 class="n-expert">HTML</h3>
+                    <h3 class="subt-conocimiento">HTML</h3>
                 </div>
-            </section>   
-            <div class="cont-expert">
-                <img src="CSS.svg" alt="">
-                <h3 class="n-expert">CSS</h3>
-            </div>
+                <div class="cont-cono">
+                    <img src="CSS.svg" alt="">
+                    <h3 class="subt-conocimiento">CSS</h3>
+                </div>
+                <div class="cont-cono">
+                    <img src="javascriptsvg.svg" alt="">
+                    <h3 class="subt-conocimiento">JavaScript</h3>
+                </div>
+                <div class="cont-cono">
+                    <img src="python.svg" alt="">
+                    <h3 class="subt-conocimiento">Python</h3>
+                </div>
+            </section>               
         </section> 
-        <div class="cont-expert">
-            <img src="javascriptsvg.svg" alt="">
-            <h3 class="n-expert">JavaScript</h3>
-        </div>
-    </section> 
-    <div class="cont-expert">
-        <img src="python.svg" alt="">
-        <h3 class="n-expert">Python</h3>
-    </div>
-</section>          
-        </section>
-
+    
     </main>
 <!--------------------------------------------------------------------pie de página--------------------->
 <footer id="contactoJS">
@@ -139,5 +136,7 @@
 
 <!-----------------------------------------------------------JAVASCRIPT------------------------->
 <script src="main.js"></script>
+<script src="lightbox.js"></script>
+
 </body>
 </html>
